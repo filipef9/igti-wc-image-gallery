@@ -5,11 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Components - Image Gallery</title>
+    <title>Galeria de fotos</title>
+
+    <script type="module" src="js/img-gallery.js"></script>
 </head>
 
 <body>
-    <h1>Image Gallery</h1>
+    <img-gallery>
+        <h3 slot="title">Fotos de animais</h3>
+        <img src="img/foto1.jpg" />
+        <img src="img/foto2.jpg" />
+        <img src="img/foto3.jpg" />
+        <img src="img/foto4.jpg" />
+        <img src="img/foto5.jpg" />
+    </img-gallery>
 </body>
 
 </html>
